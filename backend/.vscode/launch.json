@@ -6,14 +6,15 @@
   "configurations": [
     {
       "type": "node",
-      "request": "launch",
-      "name": "Launch Program",
+      "request": "attach",
+      "protocol": "inspector",
+      "restart": true,
+      "name": "Debug",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/server.ts",
       "outFiles": [
-        "${workspaceFolder}/**/*.ts"
+        "${workspaceFolder}/**/*.js"
       ]
     }
   ]
