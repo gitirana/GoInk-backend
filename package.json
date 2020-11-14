@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev:server": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts",
+    "dev:server": "ts-node-dev --transpile-only --inspect --ignore-watch node_modules src/server.ts",
     "start": "ts-node src/index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
@@ -14,6 +14,7 @@
     "date-fns": "^2.16.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
     "pg": "^8.4.2",
     "reflect-metadata": "^0.1.13",
     "ts-node-dev": "^1.0.0",
@@ -24,6 +25,7 @@
     "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.8",
     "@types/jsonwebtoken": "^8.5.0",
+    "@types/multer": "^1.4.4",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "eslint": "6.8.0",
