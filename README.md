@@ -6,6 +6,8 @@
 
 In this repository you will find the API for this application.
 
+The web version is already in development in this [repository](https://github.com/gitirana/GoInk-web)
+
 ## Application
 
 GoInk is an application to facilitate booking tattoo sessions with your favorite tattoo artist!
