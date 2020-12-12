@@ -38,7 +38,20 @@
       {
         "argsIgnorePattern": "_"
       }
-    ]
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "prefix": [
+          "I"
+        ],
+        "format": [
+          "PascalCase"
+        ]
+      }
+    ],
+    "no-useless-constructor": "off"
   },
   "settings": {
     "import/resolver": {
