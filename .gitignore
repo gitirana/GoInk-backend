@@ -5,3 +5,4 @@ temp/
 tmp/*
 !tmp/.gitkeep
 build/
+coverage/
