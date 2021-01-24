@@ -12,6 +12,7 @@ export default class ProvidersController {
     const providers = await listProviders.execute({
       user_id,
     });
+
     return response.json(providers);
   }
 }
