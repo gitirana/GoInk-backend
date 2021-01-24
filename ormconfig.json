@@ -1,9 +1,10 @@
 [
   {
+    "name": "default",
     "type": "postgres",
     "host": "localhost",
-    "port": "5432",
     "username": "postgres",
+    "port": "5432",
     "password": "docker",
     "database": "gostack_goink",
     "entities": [
@@ -17,10 +18,10 @@
     }
   },
   {
+    "name": "mongo",
     "type": "mongodb",
     "host": "localhost",
     "port": "27017",
-    "username": "mongo",
     "database": "goink",
     "useUnifiedTopology": true,
     "entities": [
